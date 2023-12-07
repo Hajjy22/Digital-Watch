@@ -1,5 +1,5 @@
 # Digital-Watch
-Montre Numerique
+
 Design, implementation then programation of a SoC on FPGA Altera DE1 Cyclone II board using Quartus, Qsys system for synthesis, and Nios® II Software Developer for the programmation in C language(VHDL, Digital electronics, FPGA design...)
 HARDWARE :
  Selection of the predefined IP blocks using the Qsys system and connecting them.

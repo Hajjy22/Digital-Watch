@@ -2,8 +2,8 @@
 
 Design, implementation then programation of a SoC on FPGA Altera DE1 Cyclone II board using Quartus, Qsys system for synthesis, and Nios® II Software Developer for the programmation in C language(VHDL, Digital electronics, FPGA design...)
 
-SYSTEM TOOL FLOW:
 ![System](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
+\\\\\\\\\\\\\\\SYSTEM TOOL FLOW:
 
 HARDWARE :
  Selection of the predefined IP blocks using the Qsys system and connecting them.

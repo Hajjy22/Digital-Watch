@@ -7,7 +7,8 @@ We designed a digital watch using programmable SoC components, implemented on an
 
 ![System Design](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
 
-# System Flow
+#System Flow
+---
 
 ### Hardware Design
 ![Tool Flow Diagram](https://github.com/Hajjy22/Digital-Watch/assets/135442276/eb32e72c-ab63-4bb4-9f18-2457f5a7357a)

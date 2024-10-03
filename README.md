@@ -7,11 +7,11 @@ We designed a digital watch using programmable SoC components, implemented on an
 
 ![System Design](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
 
----
-
-## System Flow
+# System Flow
 
 ### Hardware Design
+![Tool Flow Diagram](https://github.com/Hajjy22/Digital-Watch/assets/135442276/eb32e72c-ab63-4bb4-9f18-2457f5a7357a)
+
 1. **IP Block Selection**: Using Qsys, we chose IP blocks for the components needed in our SoC:
     - NIOS II processor
     - PLL
@@ -19,6 +19,7 @@ We designed a digital watch using programmable SoC components, implemented on an
     - JTAG UART
     - System ID
     - SDRAM, LEDs, Push buttons, Switches, 7-Segment Displays (4 displays)
+
 
 2. **RTL Generation**: After connecting the components, we generated the RTL code in **VHDL**.
 
@@ -46,11 +47,6 @@ We designed a digital watch using programmable SoC components, implemented on an
 ### Demo:
 Check out the video of the running digital watch:  
 [Watch Demo](https://github.com/Hajjy22/Digital-Watch/assets/135442276/c10a61b7-a7d1-4704-976c-c5c306f76e02)
-
----
-
-## System Tool Flow Summary
-![Tool Flow Diagram](https://github.com/Hajjy22/Digital-Watch/assets/135442276/eb32e72c-ab63-4bb4-9f18-2457f5a7357a)
 
 ---
 

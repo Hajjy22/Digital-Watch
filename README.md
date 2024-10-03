@@ -2,12 +2,11 @@
 
 This project involves the design, implementation, and programming of a System-on-Chip (SoC) on an **Altera DE1 Cyclone II FPGA board**. The project uses **Quartus**, **Qsys** for synthesis, and **Nios® II Software Developer** for programming in C.
 
+![System Design](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
+# System tool Flow
+---
 ## Project Overview
 We designed a digital watch using programmable SoC components, implemented on an FPGA. The watch has functionalities like time display, stopwatch mode, and control inputs for resetting and switching modes.
-
-![System Design](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
-
-#System Flow
 ---
 
 ### Hardware Design

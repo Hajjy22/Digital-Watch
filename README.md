@@ -1,30 +1,65 @@
-# Digital-Watch
+# Digital Watch SoC Design on FPGA
 
-Design, implementation then programation of a SoC on FPGA Altera DE1 Cyclone II board using Quartus, Qsys system for synthesis, and Nios® II Software Developer for the programmation in C language(VHDL, Digital electronics, FPGA design...)
+This project involves the design, implementation, and programming of a System-on-Chip (SoC) on an **Altera DE1 Cyclone II FPGA board**. The project uses **Quartus**, **Qsys** for synthesis, and **Nios® II Software Developer** for programming in C.
 
-![System](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
-\\\\\\\\\\\\\\\SYSTEM TOOL FLOW:
+## Project Overview
+We designed a digital watch using programmable SoC components, implemented on an FPGA. The watch has functionalities like time display, stopwatch mode, and control inputs for resetting and switching modes.
 
-HARDWARE :
- Selection of the predefined IP blocks using the Qsys system and connecting them.
- Generate the RTL code, in VHDL language, of the final design.
- Execution of the FPGA design flow from the RTL-level to the Programmation of the ALTERA DE1 board.
- Programmation, using C language, of the implemented SoC in the FPGA board.
- 
-![280500167-077ceb59-32b0-45f0-9b19-1030f4edbbde](https://github.com/Hajjy22/Digital-Watch/assets/135442276/eb32e72c-ab63-4bb4-9f18-2457f5a7357a)
+![System Design](https://github.com/user-attachments/assets/1c91f7be-829c-4a14-a4cc-7cb8f59a2952)
 
-The design and implementation phase is about choosing the IP Block of the different components we needed for our programmable SoC: NIOS II processor, PLL, Timers, Jtag uart, and System Id. And also the corresponding IP block of the physical components we used on the FPGA board: SDRAM 8Mo, Red/green LEDs, push buttons, switches, and 7 segment displays (4 displays). Then we linked the ensemble to generate the RTL code that we compiled and implemented on the FPGA ALTERA DE1 board.
+---
 
-SOFTWARE:
- The SoC programming using C language: After successfully implementing the SoC, we used the NIOS II development software to write the program of the controlled watch concerning the specifications below:
-Push buttons: KEY0: reset, KEY1-3: Trigger, pause, stop the watch (seconds and minutes).
-Switches: 1-9 controls (as required) for watch update and switch the display between watch and stopwatch.
-Displays 7 segments: Watch display (time: 2 displays, minutes: 2 displays), stopwatch (minutes: 2 displays, seconds: 2 displays).
+## System Flow
 
+### Hardware Design
+1. **IP Block Selection**: Using Qsys, we chose IP blocks for the components needed in our SoC:
+    - NIOS II processor
+    - PLL
+    - Timers
+    - JTAG UART
+    - System ID
+    - SDRAM, LEDs, Push buttons, Switches, 7-Segment Displays (4 displays)
 
-Results :
-![279822963-3051a5fc-fd0b-4481-9198-a5fbf7584f20](https://github.com/Hajjy22/Digital-Watch/assets/135442276/1ad7c7b7-d378-4cc9-9494-d5ccb54ad3df)
+2. **RTL Generation**: After connecting the components, we generated the RTL code in **VHDL**.
 
+3. **FPGA Design Flow**: The RTL-level design was implemented on the **Altera DE1 Cyclone II** board.
 
-https://github.com/Hajjy22/Digital-Watch/assets/135442276/c10a61b7-a7d1-4704-976c-c5c306f76e02
+4. **C Programming**: We programmed the SoC using C via the Nios® II Software Developer environment.
 
+### System Components:
+- **Push buttons**:  
+  - `KEY0`: Reset  
+  - `KEY1-3`: Trigger, pause, and stop the watch
+- **Switches**: Used to update the watch and toggle between watch and stopwatch mode.
+- **7-Segment Displays**: Displays time in the format (HH:MM) and stopwatch in the format (MM:SS).
+
+---
+
+## Results
+
+- **Hardware Design**: Successful integration of all hardware components and implementation on the FPGA.
+
+- **Software Implementation**: The watch functionality was programmed and tested, and the results are displayed on the 7-segment displays.
+
+![Final Results](https://github.com/Hajjy22/Digital-Watch/assets/135442276/1ad7c7b7-d378-4cc9-9494-d5ccb54ad3df)
+
+### Demo:
+Check out the video of the running digital watch:  
+[Watch Demo](https://github.com/Hajjy22/Digital-Watch/assets/135442276/c10a61b7-a7d1-4704-976c-c5c306f76e02)
+
+---
+
+## System Tool Flow Summary
+![Tool Flow Diagram](https://github.com/Hajjy22/Digital-Watch/assets/135442276/eb32e72c-ab63-4bb4-9f18-2457f5a7357a)
+
+---
+
+## Tools and Technologies
+- **FPGA**: Altera DE1 Cyclone II
+- **Software**: Quartus, Qsys, Nios II Software Developer
+- **Languages**: VHDL, C
+- **Components**: NIOS II Processor, PLL, Timers, SDRAM, 7-Segment Displays
+
+---
+
+Check the project repository!
